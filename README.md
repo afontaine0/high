@@ -11,11 +11,12 @@ A school blog project with PHP
 ### Installing
 
 * Clone the repository
+* Copy the `.env.example` file to `.env` and edit environment variables
 * Run `docker-compose up -d`
 
 ### Usage
 
-The blog is available at [localhost:8080](`localhost:8080`). The first user to register will be the admin, and will be able to edit and delete any post.
+The blog is available at [`localhost:PORT`](http://localhost:1234) (where `PORT` is the value set in the `.env` file). The first user to register will be the admin, and will be able to edit and delete any post.
 
 ## Built With
 
